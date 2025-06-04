@@ -8,7 +8,7 @@ pool:
 steps:
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Azure subscription 1 (ae8cac39-6af7-465e-8ba2-d7d183fa081e)'
+    azureSubscription: 'aksconnectionpath'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
